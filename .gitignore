@@ -1,34 +1,17 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
+/src/dist
+/src/tmp
 
 # dependencies
 /node_modules
 /bower_components
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log*
-yarn-error.log
-testem.log
-
-# added (and constantly changed) if you have the ember-cli vscode extension installed
-/typings/*
-
-# this stuff is old and it keeps coming back
-/nfieldmanager
-*.sublime-workspace
-*.orig
-
-testlog-*.txt
-build-size-performance.json
-
-#ember-try
-.node_modules.ember-try/
-.bower.json.ember-try
-.package.json.ember-try
+/src/.sass-cache
+/src/connect.lock
+/src/coverage/*
+/src/libpeerconnection.log
+/srcnpm-debug.log*
+/src/yarn-error.log
