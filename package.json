@@ -1,0 +1,12 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
