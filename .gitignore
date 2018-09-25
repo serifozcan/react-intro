@@ -1,17 +1,18 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/src/dist
-/src/tmp
+/dist
+/tmp
+/.cache
 
 # dependencies
 /node_modules
 /bower_components
 
 # misc
-/src/.sass-cache
+/.sass-cache
 /src/connect.lock
 /src/coverage/*
 /src/libpeerconnection.log
 /srcnpm-debug.log*
-/src/yarn-error.log
+yarn-error.log
