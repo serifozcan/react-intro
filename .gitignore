@@ -13,7 +13,7 @@
 .env
 /.sass-cache
 /src/connect.lock
-/src/coverage/*
+/coverage/*
 /src/libpeerconnection.log
 /srcnpm-debug.log*
 yarn-error.log
