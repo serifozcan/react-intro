@@ -4,6 +4,6 @@ export default function breedReducer(state = "", action) {
   } else if (action.type === "SET_ANIMAL") {
     return "";
   } else {
-    state;
+    return state;
   }
 }
